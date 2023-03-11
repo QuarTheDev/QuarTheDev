@@ -10,8 +10,8 @@ I'm a front-end developer and hobbyist from Östersund, Sweden. I currently main
 ### Bonus info
 - 🫣 Name: **`Lars`**
 - 😄 Pronouns: **`he/they`**
-- 🌱 I’m currently learning **`LaTeX, Python, JS`**
+- 🌱 I’m currently learning **`JS, HTML, CSS`**
 - 👯 I’m looking to collaborate on **`SpotX-GUI for Linux`**
 - 🤔 I’m looking for help with **`fluent-gmod`**
-- 💬 Ask me about **`Desmos!`**
+- 💬 Ask me about **`anything!`**
 - 📫 How to reach me: **`Email (quarthedev@proton.me)`**
