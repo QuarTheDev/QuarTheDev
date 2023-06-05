@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 
 
 ### Current OS
-[![Linux Mint](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=linuxmint)](https://linuxmint.com/)
+[![Linux Mint](https://img.shields.io/badge/linux%20mint-black?style=for-the-badge&logo=linuxmint)](https://linuxmint.com/)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Microsoft)](https://www.microsoft.com/en-us/windows)
 
 <hr>
