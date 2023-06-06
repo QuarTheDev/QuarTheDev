@@ -1,4 +1,5 @@
 
+
 <h1 align="center"> <img src="https://quar.pages.dev/quar_round.png" width="30px"> QuarTheDev </h1>
 
 <!--
@@ -37,8 +38,8 @@ Here are some ideas to get you started:
 
 
 ### Current OS
-[![Linux Mint](https://img.shields.io/badge/linux%20mint-black?style=for-the-badge&logo=linuxmint)](https://linuxmint.com/)
-[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Microsoft)](https://www.microsoft.com/en-us/windows)
+[![Fedora Workstation](https://img.shields.io/badge/fedora%20linux%2038-black?style=for-the-badge&logo=linuxmint)](https://linuxmint.com/)
+[![Windows 11](https://img.shields.io/badge/windows%2011-black?style=for-the-badge&logo=Microsoft)](https://www.microsoft.com/en-us/windows)
 
 <hr>
 
