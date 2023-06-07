@@ -1,5 +1,3 @@
-
-
 <h1 align="center"> <img src="https://quar.pages.dev/quar_round.png" width="30px"> QuarTheDev </h1>
 
 <!--
@@ -22,13 +20,13 @@ Here are some ideas to get you started:
     <br><br>
 <a href="https://www.twitter.com/quarthedev"><img src="https://img.shields.io/badge/twitter-black?style=for-the-badge&amp;logo=Twitter" alt="Twitter" title="@QuarTheDev"></a>
 <a href="https://www.instagram.com/quarthedev"><img src="https://img.shields.io/badge/instagram-black?style=for-the-badge&amp;logo=instagram" alt="Instagram" title="@QuarTheDev"></a>
-<a href="https://www.youtube.com/@QuarTheDev"><img src="https://img.shields.io/badge/youtube-black?style=for-the-badge&amp;logo=youtube" alt="hover" title="quarthedev@proton.me"></a>
+<a href="https://www.youtube.com/@QuarTheDev"><img src="https://img.shields.io/badge/youtube-black?style=for-the-badge&amp;logo=youtube" alt="hover" title="@QuarTheDev"></a>
+<a href="https://www.buymeacoffee.com/QuarTheDev"><img src="https://img.shields.io/badge/donate-black?style=for-the-badge&amp;logo=buymeacoffee" alt="hover" title="@QuarTheDev"></a>
 <a href="https://quar.pages.dev"><img src="https://img.shields.io/badge/website-black?style=for-the-badge&amp;logo=cloudflare" alt="hover" title="quar.pages.dev"></a>
 <a href="mailto://quarthedev@proton.me"><img src="https://img.shields.io/badge/email-black?style=for-the-badge&amp;logo=gmail" alt="hover" title="quarthedev@proton.me"></a>
 <a href="xmpp:quarthedev@linuxlovers.at"><img src="https://img.shields.io/badge/XMPP-black?style=for-the-badge&amp;logo=XMPP" alt="hover" title="quarthedev@linuxlovers.at"></a>
 
 </p>
-
 
 ### Languages
 [![Bash](https://img.shields.io/badge/bash-black?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
