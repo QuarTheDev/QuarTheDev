@@ -46,7 +46,4 @@ Here are some ideas to get you started:
     <img src="https://komarev.com/ghpvc/?username=QuarTheDev&label=Views&style=for-the-badge&color=555555" />
   </a>
   <br>
-  <sup>
-		 <b>Toji - always and forever ♥&#xFE0E;</b>
-	</sup>
 </p>
