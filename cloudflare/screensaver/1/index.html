@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    @font-face {
+      font-family: 'dvd';
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n');
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.ttf?bj2v8n') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.woff?bj2v8n') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.svg?bj2v8n#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      background: #000000;
+    }
+
+    #dvd {
+      position: absolute;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      width: 400px;
+      height: 176px;
+      color: #fff;
+    }
+
+    #dvd:before {
+      font-family: 'dvd' !important;
+      speak: none;
+      font-style: normal;
+    }
+  </style>
 </head>
 <body>
+  <div id="dvd"></div>
 
-<div id="dvd"></div>
-<script src="script.js"></script>
+  <script>
+    var box = document.getElementById('dvd'),
+      colors = ['#ff0000', '#ff4000', '#ff8000', '#ffbf00', '#ffff00', '#bfff00', '#80ff00', '#40ff00', '#00ff00', '#00ff40', '#00ff80', '#00ffbf', '#00ffff', '#00bfff', '#0080ff', '#0040ff', '#0000ff', '#4000ff', '#8000ff', '#bf00ff', '#ff00ff', '#ff00bf', '#ff0080', '#ff0040', '#ff0000'],
+      currentColor = Math.floor((Math.random() * 25) + 1),
+      win = window,
+      ww = win.innerWidth,
+      wh = win.innerHeight,
+      translateX = Math.floor((Math.random() * ww) + 1),
+      translateY = Math.floor((Math.random() * wh) + 1),
+      boxWidth = box.offsetWidth,
+      boxHeight = box.offsetHeight,
+      boxTop = box.offsetTop,
+      boxLeft = box.offsetLeft,
+      xMin = -boxLeft,
+      yMin = -boxTop,
+      xMax = win.innerWidth - boxLeft - boxWidth,
+      yMax = win.innerHeight - boxTop - boxHeight,
+      request = null,
+      direction = 'se',
+      speed = 4,
+      timeout = null;
 
+    init();
+
+    // reset constraints on resize
+    window.addEventListener('resize', function(argument) {
+      clearTimeout(timeout);
+      timeout = setTimeout(update, 100);
+    }, false);
+
+    function init() {
+      request = requestAnimationFrame(init);
+      update();
+    }
+
+    function update() {
+      box.style.background = colors[currentColor];
+      translateX += (direction.indexOf('e') > -1) ? speed : -speed;
+      translateY += (direction.indexOf('s') > -1) ? speed : -speed;
+
+      if (translateX >= xMax) {
+        translateX = xMax;
+        direction = direction.replace('e', 'w');
+        currentColor = (currentColor + 1) % colors.length;
+      } else if (translateX <= xMin) {
+        translateX = xMin;
+        direction = direction.replace('w', 'e');
+        currentColor = (currentColor + 1) % colors.length;
+      }
+
+      if (translateY >= yMax) {
+        translateY = yMax;
+        direction = direction.replace('s', 'n');
+        currentColor = (currentColor + 1) % colors.length;
+      } else if (translateY <= yMin) {
+        translateY = yMin;
+        direction = direction.replace('n', 's');
+        currentColor = (currentColor + 1) % colors.length;
+      }
+
+      box.style.transform = 'translate(' + translateX + 'px, ' + translateY + 'px)';
+    }
+  </script>
 </body>
 </html>
