@@ -55,6 +55,11 @@ nav ul li a {
   padding-top: 40px;
 }
 
+img {
+  border-radius: 24px;
+  max-width: 100%;
+}
+
 #links .container {
   text-align: center;
   background-color: #1f1f1f;
@@ -88,6 +93,7 @@ nav ul li a {
   background-color: #333;
   border: none;
   transition: background-color 0.3s ease;
+  margin-bottom: 5px
 }
 
 .button:hover {
