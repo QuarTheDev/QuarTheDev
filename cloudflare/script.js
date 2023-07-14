@@ -131,4 +131,3 @@ function activateEasterEgg() {
     setInterval(changeRandomCSSProperty, 0);
   }, 1500);
 }
-
