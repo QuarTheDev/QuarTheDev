@@ -24,7 +24,7 @@ function generateRandomQuote() {
         quoteElement.innerHTML = `
       <div class="image-container">
         <img src="./assets/human-head-alt.png?v=1" alt="THERE IS TRUTH IN FICTION" class="image">
-        <img src="./assets/human-head-alt.png.png?v=1" alt="THERE IS TRUTH IN FICTION" class="blur">
+        <img src="./assets/human-head-alt.png?v=1" alt="THERE IS TRUTH IN FICTION" class="blur">
       </div>`;
     } else {
         quoteElement.innerText = randomQuote;
