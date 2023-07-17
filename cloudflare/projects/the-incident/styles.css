@@ -1,0 +1,68 @@
+/* Special thanks to VileR for their incredible work on The Oldschool PC Font Resource. */
+/* https://int10h.org/oldschool-pc-fonts/ */
+
+@font-face {
+ font-family: SperryPC8x16;
+ src:url(./assets/sperrypc8x16.eot);
+ src:url(./assets/sperrypc8x16.eot?#iefix) format('embedded-opentype'),
+ url(./assets/sperrypc8x16.woff2) format('woff2'),
+ url(./assets/sperrypc8x16.woff) format('woff'),
+ url(./assets/sperrypc8x16.ttf) format('truetype');
+ font-weight: 400;
+ font-style: normal;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: SperryPC8x16,courier,monospace;
+    font-size: 32px;
+    line-height: 85px;
+    color: white;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+#quote {
+    position: absolute;
+    font-family: 'SperryPC8x16',Courier,monospace;
+    color: white;
+    text-align: center;
+    transition: transform 0.05s ease-in-out;
+    text-shadow: 4px 4px 15px rgb(0,0,0,1); 
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image {
+    filter: brightness(50%);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(25px);
+  z-index: -1;
+}
