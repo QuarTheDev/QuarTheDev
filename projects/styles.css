@@ -7,9 +7,14 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.container p {
+  padding: 0 16px;
+  line-height: 24px;
 }
 
 header {
@@ -87,13 +92,13 @@ img {
   font-size: 18px;
   font-weight: bold;
   padding: 15px 25px;
-  border-radius: 24px;
+  margin: 7px 0 6px 0;
+  border-radius: 14px;
   text-decoration: none;
   color: #fff;
   background-color: #333;
   border: none;
   transition: background-color 0.3s ease;
-  margin-bottom: 5px
 }
 
 .button:hover {
@@ -162,7 +167,7 @@ footer p {
 }
 
 .pre-footer {
-  padding: 24px;
+  padding: 48px;
 }
 
 @-webkit-keyframes peek {
