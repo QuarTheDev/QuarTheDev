@@ -86,7 +86,7 @@ tt, code, samp {
   height: .25em;
   padding: 0;
   margin: 24px 0;
-  background-color: var(--borderColor-default, #30363d);
+  background-color: #30363d;
   border: 0;
 }
 
