@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -105,6 +105,12 @@ nav ul li a {
   padding: 5px;
 }
 
+#about .container p {
+  text-align: left;
+  padding: 0 16px;
+  line-height: 24px;
+}
+
 #about h2 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -153,6 +159,10 @@ footer p {
   -webkit-animation-delay: 0.5s;
   animation: peek 3s forwards;
   animation-delay: 500ms;
+}
+
+.pre-footer {
+  padding: 24px;
 }
 
 @-webkit-keyframes peek {

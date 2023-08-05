@@ -161,6 +161,10 @@ footer p {
   animation-delay: 500ms;
 }
 
+.pre-footer {
+  padding: 24px;
+}
+
 @-webkit-keyframes peek {
       0% { bottom: -60px; }
      10% { bottom: 20px; }
