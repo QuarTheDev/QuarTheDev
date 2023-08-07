@@ -28,6 +28,7 @@
   <meta name="msapplication-TileColor" content="#151617">
   <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
   <script src="script.js" defer></script>
+  <script src="/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -45,14 +46,18 @@
 
   <section id="links">
     <div class="container">
-      <h2>Contact</h2>
-      <p>Want to get in touch with me? I have a couple ways you can reach out.</p>
-      <div class="buttons">
-        <a class="button" href="mailto:quarthedev@proton.me">Email</a>
-        <a class="button" href="xmpp:quarthedev@sure.im">XMPP</a>
-        <a class="button" href="https://mastodon.social/@quarthedev">Mastodon</a>
-        <a class="button" href="https://quar.pages.dev/contact/direct">Direct</a>
-      </div>
+      <h2>Direct Contact</h2>
+      <p>Wish to reach out to me anonymously? Send an anonymous message directly to me using this form, no email required.</p>
+      <p>Please note that I will be unable to respond to any messages you send here unless you provide contact information in your message.</p>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required maxlength="20"><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required maxlength="35"><br>
+        <label for="body">Message:</label>
+        <textarea id="body" name="body" rows="4" required maxlength="4000"></textarea><br>
+        <button type="submit" class="button">Send</button>
+      </form>
     </div>
   </section>
 
