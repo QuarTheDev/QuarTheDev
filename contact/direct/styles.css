@@ -218,3 +218,7 @@ body {
   .contact-form input[type="submit"]:hover {
     background-color: #444;
   }
+
+  .pre-footer {
+    padding: 48px;
+  }

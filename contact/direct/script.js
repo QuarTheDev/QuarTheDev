@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "https://discord.com/api/webhooks/1137944840278130718/mgMhjDeEibU3IziU-ef9LH_sNJH9KUPNV4Al5KzXnJuysbuAfTbiRuRe3C6NIPYeJa8q";
 
     const payload = {
-      content: `## Name:\n**${name}**\n\n## Subject:\n${subject}\n\n## Message:\n${message}`,
+      content: `## Name:\n**${name}**\n## Subject:\n${subject}\n## Message:\n${message}`,
     };
 
     // Reset form values
