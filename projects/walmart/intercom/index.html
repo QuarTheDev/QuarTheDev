@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ADMINPANEL</title>
+    <link rel="icon" type="image/x-icon" href="https://external-content.duckduckgo.com/ip3/corporate.walmart.com.ico">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1200px-Walmart_logo.svg.png" alt="Walmart">
+    </header>
+    <main>
+        <div class="admin-panel">
+            <h2>Walmart&trade; Associate Admin Panel</h2>
+            
+            <button class="button-tooltip" id="intercomBtn">
+                Override Store Intercom
+                <div class="tooltip-text">Override the store intercom system</div>
+            </button>
+            
+            <button class="button-tooltip" id="fireAlarmBtn">
+                Fire Alarm Controls
+                <div class="tooltip-text">Control the fire alarm system</div>
+            </button>
+            
+            <button class="button-tooltip" id="lightingBtn">
+                Store Lighting Controls
+                <div class="tooltip-text">Adjust store lighting settings</div>
+            </button>
+            
+            <button class="button-tooltip" id="lockdownBtn">
+                ⚠ Store Lockdown ⚠
+                <div class="tooltip-text">Triggers an immediate store lockdown</div>
+            </button>
+        </div>
+        
+        <div class="warning-dialog" id="warningDialog">
+            <p>You must be <code>Store Manager</code> or higher to access !!</p>
+            <button class="ok-button" id="okButton">OK</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

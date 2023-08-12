@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <p align="center">
     Hello! I'm <b>Quar</b>. Welcome to my GitHub page, where many of my silly pastimes are documented here for fun.
     <br><br>
-<a href="https://www.twitter.com/quarthedev"><img src="https://img.shields.io/badge/twitter-black?style=for-the-badge&amp;logo=Twitter" alt="Twitter" title="@QuarTheDev"></a>
+<a href="https://mastodon.social/@quarthedev"><img src="https://img.shields.io/badge/mastodon-black?style=for-the-badge&amp;logo=mastodon" alt="Mastodon" title="@QuarTheDev"></a>
 <a href="https://www.instagram.com/quarthedev"><img src="https://img.shields.io/badge/instagram-black?style=for-the-badge&amp;logo=instagram" alt="Instagram" title="@QuarTheDev"></a>
 <a href="https://www.youtube.com/@QuarTheDev"><img src="https://img.shields.io/badge/youtube-black?style=for-the-badge&amp;logo=youtube" alt="hover" title="@QuarTheDev"></a>
 <a href="https://www.buymeacoffee.com/QuarTheDev"><img src="https://img.shields.io/badge/donate-black?style=for-the-badge&amp;logo=buymeacoffee" alt="hover" title="@QuarTheDev"></a>
