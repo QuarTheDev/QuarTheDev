@@ -1,3 +1,5 @@
+// Special thanks to RobotWizard for the 'Bouncing DVD Logo', which was used in part to construct this maintenance page. //
+
 let x = 0,
   y = 0,
   dirX = 1,
