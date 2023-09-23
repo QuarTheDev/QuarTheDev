@@ -47,3 +47,9 @@ Here are some ideas to get you started:
   </a>
   <br>
 </p>
+
+<hr>
+
+<p align="center">
+    <b>Notice:</b> I will be unable to make major updates on my GitHub account until further notice, due to technical difficulties.
+    <br><br>
