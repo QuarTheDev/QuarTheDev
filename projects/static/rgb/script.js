@@ -39,7 +39,7 @@ const toggleActions = {
     }, 0);
   },
   home: () => {
-    window.location.href = 'https://quar.pages.dev/';
+    window.location.href = '/';
   },
   opacity: () => {
     const opacityValue = parseFloat(queryParams.get('opacity'));
