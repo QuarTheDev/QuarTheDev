@@ -22,8 +22,8 @@ Here are some ideas to get you started:
 <a href="https://mastodon.social/@quarthedev"><img src="https://img.shields.io/badge/mastodon-black?style=for-the-badge&amp;logo=mastodon" alt="Mastodon" title="@QuarTheDev"></a>
 <a href="https://www.youtube.com/@QuarTheDev"><img src="https://img.shields.io/badge/youtube-black?style=for-the-badge&amp;logo=youtube" alt="hover" title="@QuarTheDev"></a>
 <a href="https://www.buymeacoffee.com/QuarTheDev"><img src="https://img.shields.io/badge/donate-black?style=for-the-badge&amp;logo=buymeacoffee" alt="hover" title="@QuarTheDev"></a>
-<a href="/home"><img src="https://img.shields.io/badge/website-black?style=for-the-badge&amp;logo=cloudflare" alt="hover" title="quar.pages.dev"></a>
-<a href="mailto://quarthedev@proton.me"><img src="https://img.shields.io/badge/email-black?style=for-the-badge&amp;logo=gmail" alt="hover" title="quarthedev@proton.me"></a>
+<a href="https://quarthe.dev"><img src="https://img.shields.io/badge/website-black?style=for-the-badge&amp;logo=cloudflare" alt="hover" title="quarthe.dev"></a>
+<a href="mailto://quarthedev@proton.me"><img src="https://img.shields.io/badge/email-black?style=for-the-badge&amp;logo=gmail" alt="hover" title="quarthedev@pm.me"></a>
 
 </p>
 
