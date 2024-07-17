@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://quarthe.dev/quar_round.png" width="128px"><br>Quar</h1>
+<img src="https://dev.quarthe.dev/assets/round.png" width="128px"><br>Quar</h1>
 
 <!--
 **QuarTheDev/QuarTheDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
